@@ -11,4 +11,4 @@ vim.opt.tabstop=2   -- number of columns occupied by a tab character
 vim.opt.expandtab = true   -- convert tabs to white space
 vim.opt.shiftwidth=2  -- width for autoindents
 vim.opt.softtabstop=4  -- see multiple spaces as tabstops so <BS> does the right things
-
+vim.opt.clipboard:append{'unnamedplus'} -- share yank contents with clipboards
